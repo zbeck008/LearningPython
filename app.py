@@ -1,3 +1,3 @@
-seriously = "not really"
-print(seriously.replace("not", "zack", 22))
-name = "zack"
+from selenium import webdriver
+driver = webdriver.chrome
+driver.get("https://www.amazon.com")
